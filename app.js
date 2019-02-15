@@ -48,10 +48,6 @@ app.use(function(request, response){
     response.status(404).render("404");
 })
 
-// http.createServer(app).listen(3000, function(){
-//     console.log("App is running on port 3000.");
-// }) // Starts the server on port 3000
-
 var port = process.env.PORT || 8080;
 app.listen(port, function(){
     console.log("App is running on port 8080.")
