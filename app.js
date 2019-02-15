@@ -52,7 +52,7 @@ app.use(function(request, response){
 //     console.log("App is running on port 3000.");
 // }) // Starts the server on port 3000
 
-var port = process.env.port || 3000;
+var port = process.env.port || 8080;
 app.listen(port, function(){
-    console.log("App is running on port 3000.")
+    console.log("App is running on port 8080.")
 })
